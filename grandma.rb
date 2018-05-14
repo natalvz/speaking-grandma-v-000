@@ -1,6 +1,6 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(phrase)
-  if is_upper?(phrase)
+  if is_upper?
     return "I LOVE YOU TOO PUMPKIN!"
   end
 end
