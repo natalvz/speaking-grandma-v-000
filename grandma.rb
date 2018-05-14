@@ -1,6 +1,6 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(phrase)
-  if is_upper?
+  if .match(/[A-Z]/)
     return "I LOVE YOU TOO PUMPKIN!"
   end
 end
