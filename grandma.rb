@@ -2,6 +2,8 @@
 def speak_to_grandma(phrase)
   if phrase.match(/[A-Z]/)
     return "I LOVE YOU TOO PUMPKIN!"
+  else
+    return "Huh"
   end
 end
 # Whatever you say to grandma, she should respond with
