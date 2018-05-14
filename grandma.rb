@@ -1,6 +1,6 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(phrase)
-  if phrase.match(/[A-Z]/)
+  if phrase.match(/[A-Z]\D/)
     return "I LOVE YOU TOO PUMPKIN!"
   else
     return "HUH?! SPEAK UP, SONNY!"
