@@ -2,7 +2,7 @@
 def speak_to_grandma(phrase)
   if phrase.match(/[A-Z]\D/)
     return "I LOVE YOU TOO PUMPKIN!"
-  else
+  else phrase.match(/[a-z]\D/)
     return "HUH?! SPEAK UP, SONNY!"
   end
 end
